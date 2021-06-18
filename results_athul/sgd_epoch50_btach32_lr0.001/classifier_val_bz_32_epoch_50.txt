@@ -1,0 +1,24 @@
+Model          : classifier_loss_bz_32_epoch_50.h5
+Batch_size     : 32
+Learning rate  : 0.001
+Optimizer      : sgd
+Epochs         : /50
+
+Training Accuracy    : 0.6892778873443604
+Validation Accuracy  : 0.6197916865348816
+Training_loss        : 0.6103196144104004
+Validation Loss      : 0.6251633763313293
+
+Confusion Matrix
+[[99  6]
+ [67 20]]
+
+Classification Report
+              precision    recall  f1-score   support
+
+         bat       0.60      0.94      0.73       105
+     not bat       0.77      0.23      0.35        87
+
+    accuracy                           0.62       192
+   macro avg       0.68      0.59      0.54       192
+weighted avg       0.67      0.62      0.56       192
